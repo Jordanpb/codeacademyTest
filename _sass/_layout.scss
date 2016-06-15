@@ -23,6 +23,9 @@
         color: $grey-color-dark;
     }
 }
+#dropdown-menu p{
+       display: none;
+}
 #dropdown-menu{
     border-width: 3px dotted red;
     background-color: green;
@@ -37,8 +40,9 @@
     color: #ffffff;
     font-size: 1.2em;
 }
-.On{
-    display: inline-block;
+.dd1{
+    display: block;
+    border:2px solid black;
     
 }
 
