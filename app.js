@@ -1,7 +1,6 @@
 var main = funtion(){
   $('.page-heading').click(funtion(){
-    $('#dropdown-menu').show('dd1');
-    $(document).fadIn(100);
+    $('#dropdown-menu').toggleClass('dd1');
   });
 };
 $(document).ready(main);
