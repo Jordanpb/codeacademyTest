@@ -186,10 +186,11 @@
 
 .page-heading {
     font-size: 20px;
-}
-.page-heading :hover{
-    color:green;
-    cursor: auto;
+
+    h1 :hover{
+        color:green;
+        cursor: auto;
+    }
 }
 
 .post-list {
