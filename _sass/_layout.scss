@@ -23,6 +23,15 @@
         color: $grey-color-dark;
     }
 }
+#dropdown-menu{
+    border-width: 3px dotted red;
+    background-color: green;
+    position: fixed;
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 10px 10px 5px;
+    clear: both;
+}
 
 .site-nav {
     float: right;
