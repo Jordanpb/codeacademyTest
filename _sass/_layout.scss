@@ -186,14 +186,13 @@
 
 .page-heading {
     font-size: 20px;
-    color: orange;
-    text-decoration: underline;
+    color: black;
 }
 
 h1.page-heading:hover{
-    color: green;
+    color: grey;
     cursor: pointer;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .post-list {
