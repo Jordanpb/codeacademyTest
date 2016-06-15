@@ -187,11 +187,13 @@
 .page-heading {
     font-size: 20px;
     color: orange;
+    text-decoration: underline;
 }
 
-h1.page-heading :hover{
+h1.page-heading:hover{
     color: green;
     cursor: pointer;
+    font-size: 40px;
 }
 
 .post-list {
