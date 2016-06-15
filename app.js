@@ -1,9 +1,6 @@
 var main = funtion(){
   $('.page-heading').click(funtion(){
-    $('#dropdown-menu p').show('dd1');  
-  });
-  $('.page-heading').click(funtion(){
-    $('#dropdown-menu p').hide('dd1');  
+    $('.dd1').show('menu');  
   });
 };
 $(document).ready(main);
