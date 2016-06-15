@@ -187,6 +187,10 @@
 .page-heading {
     font-size: 20px;
 }
+.page-heading :hover{
+    color:green;
+    cursor: auto;
+}
 
 .post-list {
     margin-left: 0;
