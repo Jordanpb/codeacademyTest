@@ -1,5 +1,5 @@
 var main = funtion(){
-  $('.dropdown-menu').click(funtion(){
+  $('.page-heading').click(funtion(){
     $('.dropdown-menu').toggleClass('ON');  
   });
 };
