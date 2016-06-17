@@ -14,7 +14,8 @@
  nav ul li ul li a {display:block;padding:15px 10px;/*color:#444;*/color:green;}
  nav ul li ul li:hover a {background:#F7F7F7;}
  nav ul li ul.fallback {display:none;}
- nav ul li:hover ul.fallback {display:block;}
+ nav ul li:hover ul.fallback 
+ .#{color:black;}
 //END BORROWED DROP DOWN
 
 .divMain{
