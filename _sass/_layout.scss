@@ -19,7 +19,7 @@
 .divMain{
  height: relative;
  width: 40em;
- vertical-align: left;
+ vertical-align: baseline;
  background-color: yellow;
  border: 3px solid green;
  clear: both;
@@ -28,8 +28,6 @@
  color: red;
  text-decoration: italic;
  font-weight: bold;
- 
- 
 }
  
 .site-header {
