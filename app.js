@@ -1,5 +1,5 @@
 var main = funtion(){
-    
+$('div').hide();
 $('nav li ul').hover().removeClass('fallback');
 $('nav li').hover(
   function () {
