@@ -4,7 +4,7 @@ var main = funtion(){
   });
 */
 $('nav li ul').hide().removeClass('fallback');
-$('nav li').mouseClick(
+$('nav li').click(
   function () {
     $('ul', this).stop().slideDown(100);
   },
