@@ -3,7 +3,7 @@ var main = funtion(){
     $('.dd1').toggleClass('dd1');
   });
 */
-$('nav li ul').hide().removeClass('fallback');
+$('nav li ul').mouseClick().removeClass('fallback');
 $('nav li').hover(
   function () {
     $('ul', this).stop().slideDown(100);
