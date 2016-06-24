@@ -1,8 +1,13 @@
 var main = funtion(){
-/*  $('.page-heading').click(funtion(){
-    $('.dd1').toggleClass('dd1');
-  });
-*/
+    
+$('nav li').mouseenter(function(){
+       $('div').fadeTo('fast', 1);  
+    });
+    $('nav li').mouseleave(function(){
+       $('nav li).fadeTo('fast', .5); 
+    });
+    
+    
 $('nav li ul').click().removeClass('fallback');
 $('nav li').click(
   function () {
@@ -11,6 +16,5 @@ $('nav li').click(
   function () {
     $('ul', this).stop().slideUp(100);
   }
-);
 };
 $(document).ready(main);
