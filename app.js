@@ -11,6 +11,9 @@ $('nav li').hover(
   function () {
     $('ul', this).stop().slideUp(100);
   }
+  function() {
+      $('ul',this).fadeTo('fast',1);
+  }
 );
 };
 $(document).ready(main);
