@@ -1,13 +1,5 @@
 var main = funtion(){
     
-$('nav li').mouseenter(function(){
-       $('div').fadeTo('fast', 1);  
-    });
-$('nav li').mouseleave(function(){
-        $('nav li).fadeTo('fast', .5); 
-    });
-    
-    
 $('nav li ul').hover().removeClass('fallback');
 $('nav li').hover(
   function () {
