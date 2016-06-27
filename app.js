@@ -14,6 +14,7 @@ $(document).ready(main);
 
 $(document).ready(function(){
   $('body').hide();
+  $('nav li ul').hover().removeClass('fallback');
   $('nave li').click(function(){
     $('ul', this).stop().slideDown('slow');
   },
