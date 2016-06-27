@@ -16,10 +16,6 @@ $(document).ready(function(){
   $('body').hide();
   $('nav li ul').click().removeClass('fallback');
   $('nave li').click(function(){
-    $('ul', this).stop().slideDown('slow');
-  },
-    function(){
-    $('ul', this).stop().slideUp('slow');
+    $('ul', this).stop().slideToggle('slow');
   });
-  
 });
